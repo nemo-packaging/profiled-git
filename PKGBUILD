@@ -1,4 +1,6 @@
+## $Id$
 # Contributor: Alexey Andreyev <aa13q@ya.ru>
+# Maintainer: James Kittsmiller (AJSlye) <james@nulogicsystems.com>
 
 pkgname=profiled-git
 _srcname=profiled
@@ -8,8 +10,8 @@ pkgdesc="Sailfish Profile daemon, manages user settings"
 arch=('x86_64' 'aarch64')
 url="https://git.sailfishos.org/mer-core/profiled"
 license=('BSD')
-depends=('dbus')
-makedepends=('git')
+depends=('dbus-glib')
+makedepends=('git' 'doxygen')
 optdepends=()
 provides=("${_srcname}")
 conflicts=()
